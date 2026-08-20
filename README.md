@@ -66,6 +66,15 @@ Request body:
 ```
 
 The API returns the available metadata for the Reel.
+```bash
+{
+  "username": username,
+  "caption": caption,
+  "tags": tags,
+  "thumbnail_url": thumbnail_url,
+  "reel_url": reel_url
+}
+```
 
 ## 📁 Project Structure
 ```bash
