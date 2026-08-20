@@ -2,23 +2,9 @@
 
 This is the backend script that fetches the metadata of the instagram reel.
 
-## 📌 Overview
-
-Explain:
-- What the project is
-- What problem it solves
-- Who it is for
-- Main idea behind it
-
-## ✨ Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-- Feature 4
-
 ## 🛠️ Tech Stack
 
+- **Language:** Python
 - **Backend:** FastAPI
 
 ## 🚀 Installation
@@ -28,4 +14,22 @@ Explain:
 ```bash
 git clone https://github.com/Ashwin-Pillai-22/ReelVault-backend
 cd ReelVault-backend
+```
+
+### 2. Install requirements
+
+```bash
+pip3 install -r requirements.txt
+```
+
+### 3. Start server
+
+#### (i). Running the server locally
+```bash
+uvicorn FetchData:app --reload
+```
+
+#### (ii). Host the server
+```bash
+uvicorn FetchData:app --host 0.0.0.0 --port $PORT
 ```
