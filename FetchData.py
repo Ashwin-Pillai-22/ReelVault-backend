@@ -110,11 +110,6 @@ def scrape_reel_info(reel_url: str):
         "tags": tags,
         "thumbnail_url": thumbnail_url,
         "reel_url": reel_url
-
-        # "status_code": response.status_code,
-        # "final_url": response.url,
-        # "html_length": len(response.text),
-        # "og_data": og_data
     }
 
 
