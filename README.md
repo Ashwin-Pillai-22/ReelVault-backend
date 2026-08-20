@@ -5,7 +5,7 @@ Backend service for ReelVault that fetches and extracts metadata from Instagram 
 ## 🛠️ Tech Stack
 
 - **Language:** Python
-- **Backend:** FastAPI
+- **Framework:** FastAPI
 - **Server:** Uvicorn
 
 ## 🌟 Features
