@@ -79,9 +79,9 @@ The API returns the available metadata for the Reel.
 ## 📁 Project Structure
 ```bash
 ReelVault-backend/
-|- FetchData.py
-|- requirements.txt
-|- README.md
+├── FetchData.py
+├── requirements.txt
+├── README.md
 ```
 
 ## 🔗 Related Project
