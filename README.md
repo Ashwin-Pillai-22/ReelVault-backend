@@ -36,19 +36,17 @@ Note: Use pip instead of pip3 if not installed.
 ```bash
 uvicorn FetchData:app --reload
 ```
-The API will be available at: <BR>
+The API will be available at: 
 http://127.0.0.1.8000
 
-<BR><BR>
-
-FastAPI's interactive API documentation: <BR>
+FastAPI's interactive API documentation: 
 http://127.0.0.1.8000/docs
 
 #### (ii). Run for deployment
 ```bash
 uvicorn FetchData:app --host 0.0.0.0 --port $PORT
 ```
-## 4. API
+## 📡 API
 
 ### Fetch Reel Metadata
 Send an Instagram Reel URL to the API to retrieve its metadata.
@@ -56,3 +54,24 @@ Send an Instagram Reel URL to the API to retrieve its metadata.
 Example request:
 POST /scrape-reel
 
+Request body:
+{
+  "url": "http://www.instagram.com/reel/example/"
+}
+
+The API returns the available metadata for the Reel.
+
+## 📁 Project Structure
+
+ReelVault-backend/
+|- FetchData.py
+|- requirements.txt
+|- README.md
+
+## 🔗 Related Project
+This backend is part of ReelVault, a local Instagram Reel storage application.
+
+## 👨‍💻 Author
+Ashwin Pillai
+
+GitHub: [Ashwin-Pillai-22](https://github.com/Ashwin-Pillai-22)
