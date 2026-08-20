@@ -49,24 +49,31 @@ uvicorn FetchData:app --host 0.0.0.0 --port $PORT
 ## 📡 API
 
 ### Fetch Reel Metadata
+
 Send an Instagram Reel URL to the API to retrieve its metadata.
 
 Example request:
-POST /scrape-reel
 
+```bash
+POST /scrape-reel
+```
+
+```bash
 Request body:
 {
   "url": "http://www.instagram.com/reel/example/"
 }
+```
 
 The API returns the available metadata for the Reel.
 
 ## 📁 Project Structure
-
+```bash
 ReelVault-backend/
 |- FetchData.py
 |- requirements.txt
 |- README.md
+```
 
 ## 🔗 Related Project
 This backend is part of ReelVault, a local Instagram Reel storage application.
