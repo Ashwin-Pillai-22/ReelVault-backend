@@ -66,7 +66,7 @@ Request body:
 ```
 
 The API returns the available metadata for the Reel.
-`
+<code>
 {
   "username": username,
   "caption": caption,
@@ -74,7 +74,7 @@ The API returns the available metadata for the Reel.
   "thumbnail_url": thumbnail_url,
   "reel_url": reel_url
 }
-`
+</code>
 
 ## 📁 Project Structure
 ```bash
