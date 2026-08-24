@@ -86,6 +86,7 @@ ReelVault-backend/
 
 ## 🔗 Related Project
 This backend is part of ReelVault, a local Instagram Reel storage application.
+Follow this document to setup the app: [Link](https://docs.google.com/document/d/1Ihrzl4s1tIViWjaq6u7V5RI_F6L5ufA_v877jCRb36s/edit?usp=sharing)
 
 ## 👨‍💻 Author
 Ashwin Pillai
