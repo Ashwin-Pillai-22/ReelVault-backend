@@ -1,7 +1,7 @@
 # ReelVault Backend
 
 Backend service for ReelVault that fetches and extracts metadata from Instagram Reel URLs.<br>
-Application: [ReelVault](https://github.com/Ashwin-Pillai-22/ReelVault)
+Application: [download](https://github.com/Ashwin-Pillai-22/ReelVault/releases)
 
 ## 🛠️ Tech Stack
 
